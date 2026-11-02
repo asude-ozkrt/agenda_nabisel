@@ -2,7 +2,7 @@ body {
     background-color: #f2ecff;
     margin: 30px;
     color: #55408a;
-    
+    display: flex;
 
 }
 
@@ -23,7 +23,7 @@ body {
     color: #5c4e72;
     display: flex;
     align-items: center;
-    background-color: #d8c7f5;;
+    background-color: #d8c7f5;
     border-radius: 15px;
 
     gap: 15px;
@@ -38,7 +38,7 @@ body {
 
 .profile-card img{
     margin-left: 10px;
-    border-radius: 50000px;
+    border-radius: 360px;
 }
 
 .logo {
@@ -48,5 +48,14 @@ body {
     margin-left: 25px;
 }
 
+.left_bar{
+    width: 240px;
+    flex-shrink: 0;
+}
+
+.main_bar{
+    width: 200px;
+    flex-shrink: 0;
+}
 
 

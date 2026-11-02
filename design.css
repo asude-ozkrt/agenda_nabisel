@@ -1,0 +1,120 @@
+body {
+    background-color: rgb(237, 236, 255);
+    margin: 18px;
+    display: grid;
+    grid-template-columns: 300px 1fr 300px;
+    gap: 30px;
+    align-items: start;
+
+    
+
+}
+
+
+
+.profile_card{
+    background-color: white;
+    width: 300px;
+    border-radius: 15px;
+    
+    
+
+    
+   
+}
+
+.profile_card a {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    color: #604e7b;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 13px; 
+
+
+}
+
+.profile_card img{
+    margin-left: 8px;
+    align-items: flex-start;
+    border-radius: 360px;  
+}
+
+.profile_card h2{
+    margin-bottom: 6px;
+    
+}
+
+.profile_card p {
+    
+    margin-top: 6px;
+}
+
+.mini_logos{
+    background-color: rgb(205, 156, 156);
+    width: 300px;
+    border-radius: 15px;
+    transform: translateY(20px);
+    padding-bottom:10px ;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+
+     
+}
+
+.logo a{
+    display: flex;
+    align-items: center;
+    margin-left: 21px;
+    margin-right: 21px;
+    text-decoration: none;
+    color: #604e7b;
+    background-color: pink;
+    border-radius: 15px;
+    padding-left:10px ;
+    gap: 20px;
+   
+}
+
+.logo p{
+    font-size: 20px;
+}
+
+.logo img{
+    width:50px;
+    
+}
+
+
+.week {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.week h4{
+    font-size: 20px;
+
+}
+
+.days{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.main_bar{
+    margin-top: 72px;
+}
+
+
+
+
+
