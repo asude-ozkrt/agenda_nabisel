@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(237, 236, 255);
+    background-color: #f6f3ff;
     margin: 18px;
     display: grid;
     grid-template-columns: 300px 1fr 300px;
@@ -10,11 +10,16 @@ body {
 
 }
 
+.sitename img {
+    width: 200px;
+}
+
 
 
 .profile_card{
     background-color: white;
-    width: 300px;
+    border: 2px solid #4b2d7f;
+    width: 100%;
     border-radius: 15px;
     
     
@@ -28,7 +33,7 @@ body {
     align-items: center;
     gap: 20px;
     text-decoration: none;
-    color: #604e7b;
+    color: #4b2d7f;
     padding-bottom: 10px;
     padding-top: 10px;
     padding-left: 13px; 
@@ -39,7 +44,11 @@ body {
 .profile_card img{
     margin-left: 8px;
     align-items: flex-start;
-    border-radius: 360px;  
+    border-radius: 360px; 
+    border: 2px solid #4b2d7f;
+    ;
+    
+
 }
 
 .profile_card h2{
@@ -50,11 +59,14 @@ body {
 .profile_card p {
     
     margin-top: 6px;
+    font-family: sans-serif;
+    font-style: oblique;
 }
 
 .mini_logos{
-    background-color: rgb(205, 156, 156);
-    width: 300px;
+    background-color: white;
+    width: 100%;
+    border: 2px solid #4b2d7f;
     border-radius: 15px;
     transform: translateY(20px);
     padding-bottom:10px ;
@@ -70,48 +82,56 @@ body {
 .logo a{
     display: flex;
     align-items: center;
+
+    background-color: #f3f0ff;
+    border: 2px solid #4b2d7f;
     margin-left: 21px;
     margin-right: 21px;
-    text-decoration: none;
-    color: #604e7b;
-    background-color: pink;
+    text-decoration: none; 
+    
     border-radius: 15px;
     padding-left:10px ;
     gap: 20px;
    
 }
 
+.logo a:hover {
+    background-color: #ddd4f6; /* imlec ile oraya gelindiginde koyu*/
+}
+
+.logo a.active {
+    background-color: #ddd4f6;  /* o sirada hangi siradaysa o kisim koyu*/
+}
+
 .logo p{
     font-size: 20px;
+    font-family: sans-serif;
+    font-style: oblique;
+    color: #4b2d7f;
 }
 
 .logo img{
     width:50px;
-    
+    height: 50px;
+    object-fit: contain;  /* resmin tamamı orani korunarak goruntulendi*/
 }
 
+/* sadece home logosu yuzde 10 oranında buyultuldu.
+ (yeni class acildi) */
+.icon_home {
+    transform: scale(1.1);
+}
 
-.week {
+.right_box {
     background-color: white;
+    border: 2px solid #4b2d7f;
+    border-radius: 15px;
+    padding: 20px;
+}
+.clock {
+    height: 72px;
     display: flex;
     align-items: center;
-    gap: 20px;
-    
-}
-
-.week h4{
-    font-size: 20px;
-
-}
-
-.days{
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-.main_bar{
-    margin-top: 72px;
 }
 
 
